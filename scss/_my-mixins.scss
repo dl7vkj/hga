@@ -1,0 +1,23 @@
+
+@mixin img-bg-cover {
+	background-size: cover;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	height:100vh;
+	background-position:50% 50%;
+	background-color: $light-gray;
+}
+
+@mixin font-family-serif( $font-family-serif, $font-weight-bold, $color ) {
+	font-family: $font-family-serif;
+	font-weight: $font-weight-bold;
+	letter-spacing: rem-calc(5);
+	color: $color;
+}
+
+@mixin horizontal-center {
+	display: flex;
+	justify-content: center;
+}
+

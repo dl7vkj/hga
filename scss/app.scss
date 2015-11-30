@@ -1,0 +1,370 @@
+@charset 'utf-8';
+
+@import '../fonts/stylesheet';
+@import 'settings';
+@import 'foundation';
+@import 'jquery.fullPage';
+@import "my-mixins";
+
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+@include foundation-visibility-classes;
+@include foundation-float-classes;
+@include foundation-accordion;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-close-button;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-flex-video;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-menu;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+
+
+
+body {
+	letter-spacing: rem-calc(5);
+	text-transform: uppercase;
+}
+
+.row {
+	max-width: 100%;
+}
+
+// ::::::::::::: Landingpage :::::::::::::::
+
+.home {
+	background-color: $light-gray;
+	text-align: center;
+	@include img-bg-cover;  
+		li{
+		margin:rem-calc(5);
+		@include hh-medium;
+		font-size: rem-calc(20);
+	}	
+    h1 {
+    	color: $primary-color;
+		@include hh-regular;
+    	letter-spacing: rem-calc(5);
+    	text-transform: uppercase;
+    }
+	h2 {
+    	color: $primary-color;
+		@include hh-light;
+		font-size: rem-calc(90);
+    	letter-spacing: rem-calc(8);
+	}
+	h3 {
+	@include font-family-serif ($font-family-serif, bold, $primary-color );
+	font-style: italic;
+	text-transform: uppercase;			
+	} 	
+	hr {
+		width: rem-calc(350);
+	    border: 0;
+	    height: 2px;
+	    background-image: linear-gradient(to right, rgba(135, 113, 77, 0), rgba(135, 113, 77, 0.75), rgba(135, 113, 77, 0));
+	    margin-top: rem-calc(40);
+	    margin-bottom: rem-calc(40);
+	}
+}
+
+#home-01 {
+	background-image: 
+	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), 
+	url('../img/aa-landing-bg.jpg');
+	@include img-bg-cover;  
+		li{
+		float: left;
+		@include hh-medium;
+	}
+	h1{
+		margin-top: 5%;
+	}
+	#signatur {
+		@include vertical-center;
+		}
+	}
+	.lang{
+		position: absolute;
+		bottom: 5%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		@include horizontal-center;
+		color: $primary-color;
+	}
+
+
+#home-02 {
+    background-image:
+        linear-gradient(rgba(204, 204, 204, 0.6), rgba(204, 204, 204, 0.6)), 
+        url('../img/aa-numbers-bg.jpg');
+		@include img-bg-cover;
+		h2 {
+		// margin-top: 20%;
+		@include vertical-center;
+	}
+}
+
+#main-nav-ka {
+	background-image:
+	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), 
+	url('../img/HGA-Anim-menu1.jpg');	
+	@include img-bg-cover;
+	h2{
+		@include hh-regular;
+		font-size: rem-calc(50);
+		line-height: 1.275;
+		margin-top: 17%;
+	}
+	h3 {
+		margin-top: 60%;
+	}
+}
+#main-nav-rk {
+	background-image:
+	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), 
+	url('../img/HGA-Anim-menu2.jpg');	
+	@include img-bg-cover;
+	h2{
+		@include hh-regular;
+		font-size: rem-calc(50);
+		line-height: 1.275;
+		margin-top: 17%;
+	}
+	h3 {
+		margin-top: 60%;
+	}
+}
+#main-nav-sh {
+	background-image:
+	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)),  
+	url('../img/HGA-Anim-menu3.jpg');	
+	@include img-bg-cover;
+	h2{
+		@include hh-regular;
+		font-size: rem-calc(50);
+		line-height: 1.275;
+		margin-top: 17%;
+	}
+	h3 {
+		margin-top: 60%;
+	}
+}
+
+
+
+// ::::::::::::: Kreidler Gallery Nav Left fixed :::::::::::::::
+
+$gelaendesport-nav-button-class-bg-color: $light-gray; 
+$gelaendesport-nav-button-class-bg-color-hover: darken($gelaendesport-nav-button-class-bg-color, 5%);
+
+#gallery-nav {
+	width:100vh;    
+	height:rem-calc(55);
+	position:fixed;
+	background:$light-gray;
+	color: $primary-color;
+	-webkit-transform-origin: left top;
+	-moz-transform-origin: left top;
+	-ms-transform-origin: left top;
+	-o-transform-origin: left top;
+	-webkit-transform: rotate(-90deg) translateX(-100%);
+	-moz-transform: rotate(-90deg) translateX(-100%);
+	-ms-transform: rotate(-90deg) translateX(-100%);
+	-o-transform: rotate(-90deg) translateX(-100%);
+	z-index: 100;	
+	@include hh-medium;
+
+	.menu-btn-fixed{
+		position: fixed; 
+		top:0; 
+		right:0;
+	}	
+	.toggle-menu{
+		@include vertical-center;
+		width:75vh;
+		visibility: hidden;
+	}	
+	h3 {
+		@include font-family-serif ($font-family-serif, bold, $primary-color );
+		font-style: italic;
+		font-size: rem-calc(16);
+		display: inline-block;
+
+	}
+	.gallery-nav-button-class { 
+		@include button;
+		color: inherit;
+		background: transparent; 
+		height:rem-calc(54);
+		margin:0;
+		padding-top:rem-calc(18);
+			&:hover { 
+				background: $gelaendesport-nav-button-class-bg-color-hover; 
+				color: inherit;
+			} 
+			&:focus{
+				background: $gelaendesport-nav-button-class-bg-color-hover;
+			}	
+	
+		}	
+	.up-down-arrwos	{
+			font-size: rem-calc(28);
+			padding-top: rem-calc(10);
+			padding-right: rem-calc(10);
+			padding-left: rem-calc(10);
+	}
+}
+
+#gallery-lightbox {
+	background-color: $light-gray;
+	z-index:99;
+	position: fixed;
+	left:rem-calc(55);
+	top:0;
+	height:100vh;
+	overflow: hidden;
+
+	.gallery-lightbox-innerwrap {
+		overflow-y: scroll;
+	}
+}
+
+
+ul#gallery-lightbox-menu{ 
+	border:1px solid red;
+	li{
+		border:1px solid blue;
+		height: 100px;
+		margin-top: 10%;
+		a{
+			color: $primary-color;
+			&:hover{
+				  -webkit-transition: none;
+				  -moz-transition: none;
+				  -ms-transition: none;
+				  -o-transition: none;
+				  transition: none;
+				  zoom: 1;
+				  filter: alpha(opacity=50);
+				  opacity: 0.5;
+			}
+		}
+	}
+}
+		
+
+
+// ::::::::::::: Gallery Image Content :::::::::::::::
+
+.panel{
+		background-color: $light-gray;
+		width:50%;
+		height:100vh;
+		padding: rem-calc(55);
+		text-align: center; 
+    h1 {
+		@include font-family-serif ($font-family-serif, bold, $primary-color );
+		font-style: italic;
+		text-transform: uppercase;
+		margin-top: 25%;
+    }
+	h2 {
+    	color: $primary-color;
+		@include hh-light;
+		font-size: rem-calc(90);
+    	letter-spacing: rem-calc(8);
+    	margin-top: 10%;
+	}
+	.lead{
+		margin-top: 10%;
+	}
+	hr {
+		width: rem-calc(350);
+	    border: 0;
+	    height: 2px;
+	    background-image: linear-gradient(to right, rgba(135, 113, 77, 0), rgba(135, 113, 77, 0.75), rgba(135, 113, 77, 0));
+	    margin-top: rem-calc(40);
+	    margin-bottom: rem-calc(40);
+	}	
+}
+
+
+// ::::::::::::: Galerie Geländesport :::::::::::::::
+
+@mixin animation-timing {
+	-webkit-animation-duration: 1s;
+  	-webkit-animation-delay: 0.2s;
+  // -webkit-animation-iteration-count: infinite;	
+}
+
+.gallery-content-box {
+	margin-left: rem-calc(55);
+}
+
+#glsp-1 {
+	    background-image:
+        url('../img/glsp/glsp-01.jpg');
+        @include img-bg-cover;
+		@include animation-timing;	
+}
+
+#glsp-2 {
+	    background-image:
+        url('../img/glsp/glsp-02.jpg');
+        @include img-bg-cover;
+		@include animation-timing;		
+}
+
+#glsp-3 {
+	    background-image:
+        url('../img/glsp/glsp-03.jpg');
+        @include img-bg-cover;
+		@include animation-timing;		
+}
+
+#glsp-4 {
+	    background-image:
+        url('../img/glsp/glsp-04.jpg');
+        @include img-bg-cover;
+		@include animation-timing;		
+}
+
+#glsp-5-1 {
+	    background-image:
+        url('../img/glsp/glsp-05.1.jpg');
+        @include img-bg-cover;	
+}
+
+#glsp-5-2 {
+	    background-image:
+        url('../img/glsp/glsp-05.2.jpg');
+        @include img-bg-cover;
+}
+
+
+
