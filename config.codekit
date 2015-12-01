@@ -4855,6 +4855,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/glsp\/glsp-01-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109274,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-01-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-01-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/glsp\/glsp-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

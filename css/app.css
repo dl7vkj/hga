@@ -3379,13 +3379,14 @@ body {
 .home {
   background-color: #c7c6c5;
   text-align: center;
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-color: #c7c6c5;
+  border: 1px solid red; }
   .home li {
     margin: 0.3125rem;
     font-family: 'hans_kendrickmedium', arial, sans-serif;
@@ -3420,13 +3421,14 @@ body {
 
 #home-01 {
   background-image: linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), url("../img/aa-landing-bg.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-color: #c7c6c5;
+  border: 1px solid red; }
   #home-01 li {
     float: left;
     font-family: 'hans_kendrickmedium', arial, sans-serif;
@@ -3453,13 +3455,14 @@ body {
 
 #home-02 {
   background-image: linear-gradient(rgba(204, 204, 204, 0.6), rgba(204, 204, 204, 0.6)), url("../img/aa-numbers-bg.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-color: #c7c6c5;
+  border: 1px solid red; }
   #home-02 h2 {
     position: absolute;
     top: 50%;
@@ -3468,13 +3471,14 @@ body {
 
 #main-nav-ka {
   background-image: linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), url("../img/HGA-Anim-menu1.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-color: #c7c6c5;
+  border: 1px solid red; }
   #main-nav-ka h2 {
     font-family: 'hans_kendrickregular', arial, sans-serif;
     font-weight: 400;
@@ -3487,13 +3491,14 @@ body {
 
 #main-nav-rk {
   background-image: linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), url("../img/HGA-Anim-menu2.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-color: #c7c6c5;
+  border: 1px solid red; }
   #main-nav-rk h2 {
     font-family: 'hans_kendrickregular', arial, sans-serif;
     font-weight: 400;
@@ -3506,13 +3511,14 @@ body {
 
 #main-nav-sh {
   background-image: linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), url("../img/HGA-Anim-menu3.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-color: #c7c6c5;
+  border: 1px solid red; }
   #main-nav-sh h2 {
     font-family: 'hans_kendrickregular', arial, sans-serif;
     font-weight: 400;
@@ -3672,69 +3678,83 @@ ul#gallery-lightbox-menu {
   margin-left: 3.4375rem; }
 
 #glsp-1 {
-  background-image: url("../img/glsp/glsp-01.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
   background-color: #c7c6c5;
+  border: 1px solid red;
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 0.2s; }
+  #glsp-1 img {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    background-color: #c7c6c5;
+    border: 1px solid red; }
 
 #glsp-2 {
   background-image: url("../img/glsp/glsp-02.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
   background-color: #c7c6c5;
+  border: 1px solid red;
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 0.2s; }
 
 #glsp-3 {
   background-image: url("../img/glsp/glsp-03.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
   background-color: #c7c6c5;
+  border: 1px solid red;
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 0.2s; }
 
 #glsp-4 {
   background-image: url("../img/glsp/glsp-04.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
   background-color: #c7c6c5;
+  border: 1px solid red;
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 0.2s; }
 
 #glsp-5-1 {
   background-image: url("../img/glsp/glsp-05.1.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-color: #c7c6c5;
+  border: 1px solid red; }
 
 #glsp-5-2 {
   background-image: url("../img/glsp/glsp-05.2.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-color: #c7c6c5;
+  border: 1px solid red; }

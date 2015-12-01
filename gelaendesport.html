@@ -46,8 +46,11 @@
               <hr>
               <button class="button large scrollDown">WEITER</button>
             </div>
-            <div class="small-12 medium-6 columns" id="glsp-1">
-            </div>
+<!--             <div class="small-12 medium-6 columns" id="glsp-1" data-interchange="[img/glsp/glsp-01.jpg, (default)], [img/glsp/glsp-01-large.jpg, (large)]">     
+            </div> -->
+            <div class="small-12 medium-6 columns" id="glsp-1">     
+            <img src="img/glsp/glsp-01.jpg" data-interchange="[img/glsp/glsp-01.jpg', (default)], [img/glsp/glsp-01.jpg, (small)], [img/glsp/glsp-01-large.jpg, (medium)]">
+            </div>            
           </div>
         </div>
 
@@ -161,7 +164,7 @@
                   continuousVertical:true,
                   scrollBar: true,
                   css3: true,
-                  
+                                  
                   afterLoad: function (anchorLink, index) {
                       // #toggle-menu for section 4...
                       if (index >= 4) {
@@ -208,8 +211,24 @@
         }
       });
 
-        // slimscroll.js
+        // slimscroll.js scrollbar main content
 
+        // $(function(){
+        //     $('#fullpage').slimScroll({
+        //     size: '7px',
+        //     position: 'right',
+        //     color: '#87704c',
+        //     alwaysVisible: true,
+        //     railVisible: true,
+        //     railColor: '#87704c',
+        //     railOpacity: 1,
+        //     wheelStep: 10,
+        //     allowPageScroll: true,
+        //     disableFadeOut: true,
+        //     });
+        // });
+        
+         // slimscroll.js scrollbar lightbox
         $(function(){
             $('.gallery-lightbox-innerwrap').slimScroll({
             height: '100vh',

@@ -1,1 +1,1 @@
-$(document).foundation();
+$(document).foundation(),$(document).foundation("interchange","reflow");

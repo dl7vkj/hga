@@ -1,12 +1,13 @@
 
 @mixin img-bg-cover {
-	background-size: cover;	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	background-size: cover;	
 	height:100vh;
 	background-position:50% 50%;
 	background-color: $light-gray;
+	border: 1px solid red;
 }
 
 @mixin font-family-serif( $font-family-serif, $font-weight-bold, $color ) {
