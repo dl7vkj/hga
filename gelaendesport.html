@@ -44,7 +44,7 @@
               <h2>1955&mdash;60</h2>
               <p class="lead">die erste liebe<br>und Schule aller Renner</p>
               <hr>
-              <a class="button scrollDown">WEITER</a>
+              <button class="button large scrollDown">WEITER</button>
             </div>
             <div class="small-12 medium-6 columns" id="glsp-1">
             </div>
@@ -59,7 +59,7 @@
               <h1>GEL&Auml;NDESPORT</h1>
               <h2>Bruno Beuss</h2>
               <hr>
-              <a class="button scrollDown">WEITER</a>
+              <button class="button large scrollDown">WEITER</button>
             </div>
             <div class="small-12 medium-6 columns wow fadeIn" id="glsp-2">
             </div>
@@ -77,7 +77,7 @@
                   DIE SCHULUNG DES INSTINKTS FÜR 
                   GEFAHRENMOMENTE, DAS BEIWEISKÖNNEN DER BESONDEREN ABSOLUTEN GESCHICKLICHKEIT UND DIE UNERLÄSSLICHE VERBUNDENHEIT ZWISCHEN FAHRER, BAHN UND MASCHINE. IN KEINER SPARTE KANN MAN DAS ALLES SO PERFEKT ERLERNEN, SO FUNKTIONELL IN SICH VERANKERN WIE DURCH DIE HARTE SCHULE DES GELÄNDESPORTS.</p>
               <hr>
-              <a class="button scrollDown">GALERIE</a>
+              <button class="button large scrollDown">GALERIE</button>
             </div>
             <div class="small-12 medium-6 columns wow fadeIn" id="glsp-3">
             </div>
@@ -110,8 +110,8 @@
         <!-- Gallerie Lightbox  SlideIn-->    
 
     <div class="medium-3 columns toggle-lighbox hide animated slideOutLeft" id="gallery-lightbox">
-      <div class="row gallery-lightbox-innerwrap">
-        <ul class="medium-11" id="gallery-lightbox-menu">
+      <div class="gallery-lightbox-innerwrap">
+        <ul id="gallery-lightbox-menu">
           <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
           <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
           <li data-menuanchor="thirdPage"><a href="#thirdPage">Third section</a></li>
@@ -136,8 +136,13 @@
     <script src="bower_components/what-input/what-input.js"></script>
     <script src="bower_components/foundation-sites/dist/foundation.js"></script>
     <script src="bower_components/wow/dist/wow.js"></script>
-    <script>
+    <script src="js/app.js"></script>
+
+  <script>
         $(document).ready(function() {
+          var nsection = $('#fullpage .section').length;
+
+
           $('#fullpage').fullpage({
                   anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],              
                   menu: '#gallery-lightbox-menu',
@@ -159,11 +164,13 @@
                   
                   afterLoad: function (anchorLink, index) {
                       // #toggle-menu for section 4...
-                      if (index == 4) {
-                         $(".toggle-menu").css('visibility','visible')
+                      if (index >= 4) {
+                         $(".toggle-menu").css('visibility','visible').addClass("animated fadeIn");
                       }
+                      $("#id_page_index").html(index + "/" + nsection);
                   },
                   onLeave: function (index, nextIndex, direction) {
+                    $("#id_page_index").html(index + "/" + nsection);
                 //going from section 3 to 4
                 if (index == 3 && direction == 'down') {
                    //whatever
@@ -171,7 +178,7 @@
 
                 //going form section 4 to 3
                 else if (index == 4 && direction == 'up') {
-                   $(".toggle-menu").css('visibility','hidden')
+                   $(".toggle-menu").css('visibility','hidden').addClass("animated fadeOut");
                 }
             }
         });
@@ -179,6 +186,18 @@
         // toggle-lighbox-opener
   
         $('.gallery-open').click(function() {
+        if($('.toggle-lighbox').hasClass('slideOutLeft'))
+        {
+            $('.toggle-lighbox').addClass('slideInLeft').removeClass('hide slideOutLeft');
+        }
+        else
+        {
+           $('.toggle-lighbox').addClass('slideOutLeft').removeClass('slideInLeft');
+        }
+      });
+
+
+        $('.info-open').click(function() {
         if($('.toggle-lighbox').hasClass('slideOutLeft'))
         {
             $('.toggle-lighbox').addClass('slideInLeft').removeClass('hide slideOutLeft');
@@ -227,7 +246,7 @@
                   }
                   )
                   wow.init();         
-      }); 
-    </script>  
+      });             
+  </script>  
   </body>
 </html>

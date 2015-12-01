@@ -95,20 +95,20 @@
 // Button
 // ------
 
-// $button-padding: 0.85em 1em;
-// $button-margin: 0 $global-margin $global-margin 0;
-// $button-fill: solid;
-// $button-background: $primary-color;
+// // $button-padding: 0.85em 1em;
+// // $button-margin: 0 $global-margin $global-margin 0;
+// // $button-fill: solid;
+// $button-background: $light-gray;
 // $button-background-hover: scale-color($button-background, $lightness: -15%);
-$button-font-color: inherit;
-// $button-font-color-alt: #000;
-// $button-sizes: (
-//   tiny: 0.6rem,
-//   small: 0.75rem,
-//   default: 0.9rem,
-//   large: 1.25rem,
-// );
-// $button-opacity-disabled: 0.25;
+// $button-font-color: inherit;
+// // $button-font-color-alt: #000;
+// // $button-sizes: (
+// //   tiny: 0.6rem,
+// //   small: 0.75rem,
+// //   default: 0.9rem,
+// //   large: 1.25rem,
+// // );
+// // $button-opacity-disabled: 0.25;
 
 // Button Group
 // ------------
@@ -213,7 +213,7 @@ $light-gray: #c7c6c5;
 // $medium-gray: #cacaca;
 // $dark-gray: #8a8a8a;
 // $black: #0a0a0a;
-// $white: #fefefe;
+$white: #fefefe;
 $body-background: $light-gray;
 $body-font-color: $secondary-color ;
 $body-font-family: 'hans_kendrickregular', Helvetica, Roboto, Arial, sans-serif;
@@ -459,7 +459,7 @@ $anchor-color-hover: scale-color($anchor-color, $lightness: +55%);
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
 // $hr-width: $global-width;
-// $hr-border: 1px solid $medium-gray;
+$hr-border: 1px solid $primary-color;
 // $hr-margin: rem-calc(20) 0;
 // $list-lineheight: $paragraph-lineheight;
 // $list-margin-bottom: $paragraph-margin-bottom;
@@ -493,3 +493,21 @@ $blockquote-padding: rem-calc(9 20 0 19);
 // $subheader-margin-top: 0.2rem;
 // $subheader-margin-bottom: 0.5rem;
 // $stat-font-size: 2.5rem;
+
+// Button
+// ------------------
+
+// $button-padding: 0.85em 1em;
+// $button-margin: 0 $global-margin $global-margin 0;
+$button-fill: solid;
+$button-background: $light-gray;
+$button-background-hover: scale-color($button-background, $lightness: -15%);
+$button-font-color: inherit;
+$button-font-color-alt: $white;
+$button-sizes: (
+  tiny: 0.6rem,
+  small: 0.75rem,
+  default: 0.9rem,
+  large: 1.25rem,
+);
+// $button-opacity-disabled: 0.25;

@@ -82,9 +82,6 @@ body {
 	} 	
 	hr {
 		width: rem-calc(350);
-	    border: 0;
-	    height: 2px;
-	    background-image: linear-gradient(to right, rgba(135, 113, 77, 0), rgba(135, 113, 77, 0.75), rgba(135, 113, 77, 0));
 	    margin-top: rem-calc(40);
 	    margin-bottom: rem-calc(40);
 	}
@@ -248,19 +245,21 @@ $gelaendesport-nav-button-class-bg-color-hover: darken($gelaendesport-nav-button
 	top:0;
 	height:100vh;
 	overflow: hidden;
+	padding-right: 0;
 
 	.gallery-lightbox-innerwrap {
-		overflow-y: scroll;
 	}
 }
 
 
 ul#gallery-lightbox-menu{ 
 	border:1px solid red;
+	padding-right: 20px;
 	li{
 		border:1px solid blue;
 		height: 100px;
 		margin-top: 10%;
+
 		a{
 			color: $primary-color;
 			&:hover{
@@ -282,6 +281,7 @@ ul#gallery-lightbox-menu{
 // ::::::::::::: Gallery Image Content :::::::::::::::
 
 .panel{
+		color: $primary-color;
 		background-color: $light-gray;
 		width:50%;
 		height:100vh;
@@ -294,24 +294,40 @@ ul#gallery-lightbox-menu{
 		margin-top: 25%;
     }
 	h2 {
-    	color: $primary-color;
+    	color: $white;
 		@include hh-light;
-		font-size: rem-calc(90);
+		font-size: rem-calc(100);
     	letter-spacing: rem-calc(8);
     	margin-top: 10%;
 	}
 	.lead{
 		margin-top: 10%;
+		letter-spacing: rem-calc(2);
 	}
 	hr {
 		width: rem-calc(350);
-	    border: 0;
-	    height: 2px;
-	    background-image: linear-gradient(to right, rgba(135, 113, 77, 0), rgba(135, 113, 77, 0.75), rgba(135, 113, 77, 0));
 	    margin-top: rem-calc(40);
 	    margin-bottom: rem-calc(40);
 	}	
+	button {
+		color: $primary-color;
+		letter-spacing: inherit;
+		@include hh-medium;
+		&:hover{
+			color: $white;
+			}
+		&:focus{
+				color: $white;
+			}
+		&:active{
+				color: $white;
+			}	
+	}
 }
+
+/////////////////////////////////
+//button one
+///////////////////////////////
 
 
 // ::::::::::::: Galerie Geländesport :::::::::::::::
