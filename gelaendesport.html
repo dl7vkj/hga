@@ -17,7 +17,7 @@
     <aside class="sidebar fixed" id="gallery-nav">  
       <a class="gallery-nav-button-class float-left scrollDown"><i class="fa fa-long-arrow-left"></i></a> 
 
-      <div class="button-group toggle-menu">
+      <div class="button-group toggle-menu animated">
         <a class="gallery-nav-button-class"><i class="fa fa-long-arrow-down"></i> <span>INFO</span></a>
         <a class="gallery-nav-button-class gallery-open"><i class="fa fa-long-arrow-down"></i> <span>GALERIE</span></a>
         <a class="gallery-nav-button-class up-down-arrwos"><i class="fa fa-caret-left scrollDown"></i></a>
@@ -38,7 +38,7 @@
       <!-- section 1 -->
 
         <div class="section">
-          <div class="row gallery-content-box ">
+          <div class="row gallery-content-box">
             <div class="small-12 medium-6 columns panel">
               <h1>GEL&Auml;NDESPORT</h1>
               <h2>1955&mdash;60</h2>
@@ -54,8 +54,8 @@
         <!-- section 2 -->
 
         <div class="section">
-          <div class="row gallery-content-box ">
-            <div class="small-12 medium-6 columns panel" id="s1">
+          <div class="row gallery-content-box">
+            <div class="small-12 medium-6 columns panel">
               <h1>GEL&Auml;NDESPORT</h1>
               <h2>Bruno Beuss</h2>
               <hr>
@@ -165,7 +165,7 @@
                   afterLoad: function (anchorLink, index) {
                       // #toggle-menu for section 4...
                       if (index >= 4) {
-                         $(".toggle-menu").css('visibility','visible').addClass("animated fadeIn");
+                         $(".toggle-menu").css('visibility','visible').removeClass("fadeOut").addClass("fadeIn");
                       }
                       $("#id_page_index").html(index + "/" + nsection);
                   },
@@ -178,7 +178,7 @@
 
                 //going form section 4 to 3
                 else if (index == 4 && direction == 'up') {
-                   $(".toggle-menu").css('visibility','hidden').addClass("animated fadeOut");
+                   $(".toggle-menu").removeClass("fadeIn").addClass("fadeOut");
                 }
             }
         });
