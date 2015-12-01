@@ -3385,8 +3385,7 @@ body {
   background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5;
-  border: 1px solid red; }
+  background-color: #c7c6c5; }
   .home li {
     margin: 0.3125rem;
     font-family: 'hans_kendrickmedium', arial, sans-serif;
@@ -3427,8 +3426,7 @@ body {
   background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5;
-  border: 1px solid red; }
+  background-color: #c7c6c5; }
   #home-01 li {
     float: left;
     font-family: 'hans_kendrickmedium', arial, sans-serif;
@@ -3461,8 +3459,7 @@ body {
   background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5;
-  border: 1px solid red; }
+  background-color: #c7c6c5; }
   #home-02 h2 {
     position: absolute;
     top: 50%;
@@ -3477,8 +3474,7 @@ body {
   background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5;
-  border: 1px solid red; }
+  background-color: #c7c6c5; }
   #main-nav-ka h2 {
     font-family: 'hans_kendrickregular', arial, sans-serif;
     font-weight: 400;
@@ -3497,8 +3493,7 @@ body {
   background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5;
-  border: 1px solid red; }
+  background-color: #c7c6c5; }
   #main-nav-rk h2 {
     font-family: 'hans_kendrickregular', arial, sans-serif;
     font-weight: 400;
@@ -3517,8 +3512,7 @@ body {
   background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5;
-  border: 1px solid red; }
+  background-color: #c7c6c5; }
   #main-nav-sh h2 {
     font-family: 'hans_kendrickregular', arial, sans-serif;
     font-weight: 400;
@@ -3685,18 +3679,8 @@ ul#gallery-lightbox-menu {
   height: 100vh;
   background-position: 50% 50%;
   background-color: #c7c6c5;
-  border: 1px solid red;
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 0.2s; }
-  #glsp-1 img {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    background-position: 50% 50%;
-    background-color: #c7c6c5;
-    border: 1px solid red; }
 
 #glsp-2 {
   background-image: url("../img/glsp/glsp-02.jpg");
@@ -3707,7 +3691,6 @@ ul#gallery-lightbox-menu {
   height: 100vh;
   background-position: 50% 50%;
   background-color: #c7c6c5;
-  border: 1px solid red;
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 0.2s; }
 
@@ -3720,7 +3703,6 @@ ul#gallery-lightbox-menu {
   height: 100vh;
   background-position: 50% 50%;
   background-color: #c7c6c5;
-  border: 1px solid red;
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 0.2s; }
 
@@ -3733,7 +3715,6 @@ ul#gallery-lightbox-menu {
   height: 100vh;
   background-position: 50% 50%;
   background-color: #c7c6c5;
-  border: 1px solid red;
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 0.2s; }
 
@@ -3745,8 +3726,7 @@ ul#gallery-lightbox-menu {
   background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5;
-  border: 1px solid red; }
+  background-color: #c7c6c5; }
 
 #glsp-5-2 {
   background-image: url("../img/glsp/glsp-05.2.jpg");
@@ -3756,5 +3736,4 @@ ul#gallery-lightbox-menu {
   background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5;
-  border: 1px solid red; }
+  background-color: #c7c6c5; }

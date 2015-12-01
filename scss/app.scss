@@ -342,9 +342,6 @@ ul#gallery-lightbox-menu{
 	    // background-image:url('../img/glsp/glsp-01.jpg');
         @include img-bg-cover;
 		@include animation-timing;	
-		img{
-			@include img-bg-cover;
-		}
 }
 
 #glsp-2 {
