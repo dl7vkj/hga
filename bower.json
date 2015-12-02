@@ -9,7 +9,7 @@
   "license": "MIT",
   "homepage": "http://foundation.zurb.com",
   "dependencies": {
-    "foundation-sites": "~6.0.3",
+    "foundation-sites": "~6.0.4",
     "motion-ui": "~1.1.0",
     "fullpage.js": "~2.7.4",
     "wow": "wow.js#~1.1.2",

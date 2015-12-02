@@ -4842,6 +4842,50 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/img\/aa-landing-bg-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101868,
+		"inputAbbreviatedPath": "\/img\/aa-landing-bg-large.jpg",
+		"outputAbbreviatedPath": "\/img\/aa-landing-bg-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/aa-landing-bg-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60140,
+		"inputAbbreviatedPath": "\/img\/aa-landing-bg-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/aa-landing-bg-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/aa-landing-bg-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31884,
+		"inputAbbreviatedPath": "\/img\/aa-landing-bg-small.jpg",
+		"outputAbbreviatedPath": "\/img\/aa-landing-bg-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/aa-landing-bg-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146914,
+		"inputAbbreviatedPath": "\/img\/aa-landing-bg-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/aa-landing-bg-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/aa-landing-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4851,7 +4895,7 @@
 		"outputAbbreviatedPath": "\/img\/aa-landing-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/aa-numbers-bg.jpg": {
 		"fileType": 16384,
@@ -4862,7 +4906,7 @@
 		"outputAbbreviatedPath": "\/img\/aa-numbers-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/glsp\/glsp-01-large.jpg": {
 		"fileType": 16384,
@@ -4873,7 +4917,7 @@
 		"outputAbbreviatedPath": "\/img\/glsp\/glsp-01-large.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/glsp\/glsp-01-medium.jpg": {
 		"fileType": 16384,
@@ -4884,7 +4928,7 @@
 		"outputAbbreviatedPath": "\/img\/glsp\/glsp-01-medium.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/glsp\/glsp-01-small.jpg": {
 		"fileType": 16384,
@@ -4895,7 +4939,18 @@
 		"outputAbbreviatedPath": "\/img\/glsp\/glsp-01-small.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-01-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264313,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-01-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-01-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/glsp\/glsp-01.jpg": {
 		"fileType": 16384,
@@ -4906,7 +4961,51 @@
 		"outputAbbreviatedPath": "\/img\/glsp\/glsp-01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-02-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108819,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-02-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-02-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-02-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62910,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-02-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-02-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-02-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31699,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-02-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-02-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-02-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 197948,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-02-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-02-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/glsp\/glsp-02.jpg": {
 		"fileType": 16384,
@@ -4917,7 +5016,51 @@
 		"outputAbbreviatedPath": "\/img\/glsp\/glsp-02.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-03-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126869,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-03-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-03-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-03-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 90499,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-03-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-03-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-03-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66372,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-03-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-03-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-03-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171544,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-03-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-03-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/glsp\/glsp-03.jpg": {
 		"fileType": 16384,
@@ -4928,7 +5071,51 @@
 		"outputAbbreviatedPath": "\/img\/glsp\/glsp-03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-04-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76261,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-04-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-04-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-04-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58745,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-04-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-04-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-04-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43080,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-04-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-04-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-04-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105030,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-04-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-04-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/glsp\/glsp-04.jpg": {
 		"fileType": 16384,
@@ -4939,7 +5126,51 @@
 		"outputAbbreviatedPath": "\/img\/glsp\/glsp-04.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-05-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105653,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-05-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-05-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-05-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83060,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-05-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-05-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-05-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58555,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-05-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-05-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-05-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 142307,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-05-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-05-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/glsp\/glsp-05.1.jpg": {
 		"fileType": 16384,
@@ -4950,7 +5181,7 @@
 		"outputAbbreviatedPath": "\/img\/glsp\/glsp-05.1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/glsp\/glsp-05.2.jpg": {
 		"fileType": 16384,
@@ -4961,7 +5192,447 @@
 		"outputAbbreviatedPath": "\/img\/glsp\/glsp-05.2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-06-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118424,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-06-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-06-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-06-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85198,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-06-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-06-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-06-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61001,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-06-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-06-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-06-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155242,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-06-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-06-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-07-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 153632,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-07-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-07-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-07-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99791,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-07-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-07-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-07-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66992,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-07-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-07-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-07-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208119,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-07-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-07-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-08-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149883,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-08-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-08-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-08-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118214,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-08-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-08-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-08-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79601,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-08-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-08-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-08-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 201746,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-08-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-08-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-09-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 188454,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-09-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-09-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-09-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141213,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-09-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-09-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-09-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86305,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-09-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-09-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-09-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287608,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-09-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-09-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-10-1-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 205047,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-10-1-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-10-1-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-10-1-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82470,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-10-1-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-10-1-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-10-1-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33616,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-10-1-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-10-1-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-10-1-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161110,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-10-1-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-10-1-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-10-2-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 179404,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-10-2-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-10-2-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-10-2-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125046,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-10-2-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-10-2-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-10-2-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41421,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-10-2-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-10-2-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-10-2-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 272434,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-10-2-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-10-2-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-11-1-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184712,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-11-1-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-11-1-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-11-1-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136767,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-11-1-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-11-1-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-11-1-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49840,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-11-1-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-11-1-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-11-1-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 256434,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-11-1-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-11-1-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-11-2-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 190209,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-11-2-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-11-2-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-11-2-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139675,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-11-2-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-11-2-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-11-2-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49983,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-11-2-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-11-2-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-11-2-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 326252,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-11-2-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-11-2-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-12-1-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 122219,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-12-1-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-12-1-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-12-1-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92593,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-12-1-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-12-1-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-12-1-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38880,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-12-1-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-12-1-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-12-1-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 168596,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-12-1-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-12-1-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-12-2-large.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172280,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-12-2-large.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-12-2-large.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-12-2-medium.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125210,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-12-2-medium.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-12-2-medium.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-12-2-small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42461,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-12-2-small.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-12-2-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/glsp\/glsp-12-2-xlarge.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 246032,
+		"inputAbbreviatedPath": "\/img\/glsp\/glsp-12-2-xlarge.jpg",
+		"outputAbbreviatedPath": "\/img\/glsp\/glsp-12-2-xlarge.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/img\/HGA-Anim-menu1.jpg": {
 		"fileType": 16384,
@@ -4972,7 +5643,7 @@
 		"outputAbbreviatedPath": "\/img\/HGA-Anim-menu1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/HGA-Anim-menu2.jpg": {
 		"fileType": 16384,
@@ -4983,18 +5654,7 @@
 		"outputAbbreviatedPath": "\/img\/HGA-Anim-menu2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/HGA-Anim-menu2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 303458,
-		"inputAbbreviatedPath": "\/img\/HGA-Anim-menu2.png",
-		"outputAbbreviatedPath": "\/img\/HGA-Anim-menu2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/img\/HGA-Anim-menu3.jpg": {
 		"fileType": 16384,
@@ -5005,18 +5665,7 @@
 		"outputAbbreviatedPath": "\/img\/HGA-Anim-menu3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/HGA-Anim-menu3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 336935,
-		"inputAbbreviatedPath": "\/img\/HGA-Anim-menu3.png",
-		"outputAbbreviatedPath": "\/img\/HGA-Anim-menu3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,

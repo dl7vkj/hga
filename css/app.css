@@ -1495,12 +1495,12 @@ h6 {
   h6 {
     font-size: 1rem; } }
 a {
-  color: #c7c6c5;
+  color: #87704c;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #e6e5e5; }
+    color: #cfc0a9; }
   a img {
     border: 0; }
 
@@ -2409,7 +2409,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #c7c6c5 transparent transparent;
+    border-color: #87704c transparent transparent;
     border-top-style: solid;
     position: absolute;
     top: 12px;
@@ -2420,7 +2420,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #c7c6c5 transparent transparent;
+    border-color: transparent #87704c transparent transparent;
     border-right-style: solid;
     float: left;
     margin-left: 0;
@@ -2431,7 +2431,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #c7c6c5;
+    border-color: transparent transparent transparent #87704c;
     border-left-style: solid; }
   .dropdown.menu .has-submenu.is-left-arrow.opens-inner .submenu {
     right: 0;
@@ -3377,15 +3377,7 @@ body {
   max-width: 100%; }
 
 .home {
-  background-color: #c7c6c5;
-  text-align: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  text-align: center; }
   .home li {
     margin: 0.3125rem;
     font-family: 'hans_kendrickmedium', arial, sans-serif;
@@ -3425,8 +3417,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-  background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-position: 50% 50%; }
   #home-01 li {
     float: left;
     font-family: 'hans_kendrickmedium', arial, sans-serif;
@@ -3436,9 +3427,13 @@ body {
     margin-top: 5%; }
   #home-01 #signatur {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 20%;
+    margin: auto; }
 
 .lang {
   position: absolute;
@@ -3458,13 +3453,16 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-  background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-position: 50% 50%; }
   #home-02 h2 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 20%;
+    margin: auto; }
 
 #main-nav-ka {
   background-image: linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), url("../img/HGA-Anim-menu1.jpg");
@@ -3473,8 +3471,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-  background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-position: 50% 50%; }
   #main-nav-ka h2 {
     font-family: 'hans_kendrickregular', arial, sans-serif;
     font-weight: 400;
@@ -3492,8 +3489,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-  background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-position: 50% 50%; }
   #main-nav-rk h2 {
     font-family: 'hans_kendrickregular', arial, sans-serif;
     font-weight: 400;
@@ -3511,8 +3507,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-  background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-position: 50% 50%; }
   #main-nav-sh h2 {
     font-family: 'hans_kendrickregular', arial, sans-serif;
     font-weight: 400;
@@ -3546,11 +3541,7 @@ body {
     top: 0;
     right: 0; }
   #gallery-nav .toggle-menu {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 75vh;
+    width: 85vh;
     visibility: hidden; }
   #gallery-nav h3 {
     font-family: Times, Georgia, serif;
@@ -3669,71 +3660,27 @@ ul#gallery-lightbox-menu {
       color: #fefefe; }
 
 .gallery-content-box {
-  margin-left: 3.4375rem; }
+  margin-left: 3.4375rem;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%; }
 
-#glsp-1 {
+.image-container {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%; }
+
+.image-container-top {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
   background-position: 50% 50%;
-  background-color: #c7c6c5;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 0.2s; }
-
-#glsp-2 {
-  background-image: url("../img/glsp/glsp-02.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  background-position: 50% 50%;
-  background-color: #c7c6c5;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 0.2s; }
-
-#glsp-3 {
-  background-image: url("../img/glsp/glsp-03.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  background-position: 50% 50%;
-  background-color: #c7c6c5;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 0.2s; }
-
-#glsp-4 {
-  background-image: url("../img/glsp/glsp-04.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  background-position: 50% 50%;
-  background-color: #c7c6c5;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 0.2s; }
-
-#glsp-5-1 {
-  background-image: url("../img/glsp/glsp-05.1.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  background-position: 50% 50%;
-  background-color: #c7c6c5; }
-
-#glsp-5-2 {
-  background-image: url("../img/glsp/glsp-05.2.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
-  background-position: 50% 50%;
-  background-color: #c7c6c5; }
+  background-position: left top; }

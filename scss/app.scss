@@ -55,9 +55,7 @@ body {
 // ::::::::::::: Landingpage :::::::::::::::
 
 .home {
-	background-color: $light-gray;
 	text-align: center;
-	@include img-bg-cover;  
 		li{
 		margin:rem-calc(5);
 		@include hh-medium;
@@ -89,9 +87,9 @@ body {
 
 #home-01 {
 	background-image: 
-	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), 
+	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)),
 	url('../img/aa-landing-bg.jpg');
-	@include img-bg-cover;  
+	@include img-bg-cover-center;  
 		li{
 		float: left;
 		@include hh-medium;
@@ -100,7 +98,7 @@ body {
 		margin-top: 5%;
 	}
 	#signatur {
-		@include vertical-center;
+		@include horizontal-center-css;
 		}
 	}
 	.lang{
@@ -119,18 +117,18 @@ body {
     background-image:
         linear-gradient(rgba(204, 204, 204, 0.6), rgba(204, 204, 204, 0.6)), 
         url('../img/aa-numbers-bg.jpg');
-		@include img-bg-cover;
+		@include img-bg-cover-center;
 		h2 {
-		// margin-top: 20%;
-		@include vertical-center;
+			@include horizontal-center-css;
 	}
+
 }
 
 #main-nav-ka {
 	background-image:
 	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), 
 	url('../img/HGA-Anim-menu1.jpg');	
-	@include img-bg-cover;
+	@include img-bg-cover-center;
 	h2{
 		@include hh-regular;
 		font-size: rem-calc(50);
@@ -145,7 +143,7 @@ body {
 	background-image:
 	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), 
 	url('../img/HGA-Anim-menu2.jpg');	
-	@include img-bg-cover;
+	@include img-bg-cover-center;
 	h2{
 		@include hh-regular;
 		font-size: rem-calc(50);
@@ -160,7 +158,7 @@ body {
 	background-image:
 	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)),  
 	url('../img/HGA-Anim-menu3.jpg');	
-	@include img-bg-cover;
+	@include img-bg-cover-center;
 	h2{
 		@include hh-regular;
 		font-size: rem-calc(50);
@@ -202,8 +200,7 @@ $gelaendesport-nav-button-class-bg-color-hover: darken($gelaendesport-nav-button
 		right:0;
 	}	
 	.toggle-menu{
-		@include vertical-center;
-		width:75vh;
+		width:85vh;
 		visibility: hidden;
 	}	
 	h3 {
@@ -336,46 +333,18 @@ ul#gallery-lightbox-menu{
 
 .gallery-content-box {
 	margin-left: rem-calc(55);
+	@include img-bg-cover-center;
+}
+.image-container{
+	@include img-bg-cover-center;
 }
 
-#glsp-1 {
-	    // background-image:url('../img/glsp/glsp-01.jpg');
-        @include img-bg-cover;
-		@include animation-timing;	
+.image-container-top{
+	@include img-bg-cover-center;
+	background-position:left top;
 }
 
-#glsp-2 {
-	    background-image:
-        url('../img/glsp/glsp-02.jpg');
-        @include img-bg-cover;
-		@include animation-timing;		
-}
 
-#glsp-3 {
-	    background-image:
-        url('../img/glsp/glsp-03.jpg');
-        @include img-bg-cover;
-		@include animation-timing;		
-}
-
-#glsp-4 {
-	    background-image:
-        url('../img/glsp/glsp-04.jpg');
-        @include img-bg-cover;
-		@include animation-timing;		
-}
-
-#glsp-5-1 {
-	    background-image:
-        url('../img/glsp/glsp-05.1.jpg');
-        @include img-bg-cover;	
-}
-
-#glsp-5-2 {
-	    background-image:
-        url('../img/glsp/glsp-05.2.jpg');
-        @include img-bg-cover;
-}
 
 
 
