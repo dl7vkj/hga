@@ -90,7 +90,7 @@ $breakpoints: (
   xlarge: 1200px,
   xxlarge: 1440px,
 );
-$breakpoint-classes: (small medium large);
+$breakpoint-classes: (small medium large xlarge xxlarge);
 
 // Button
 // ------
@@ -200,10 +200,9 @@ $breakpoint-classes: (small medium large);
 // Global
 // ------
 
-// $global-width: rem-calc(1200);
-// $global-width: 100%;
-// $global-font-size: 100%;
-// $global-lineheight: 1.5;
+$global-width: 100%;
+$global-font-size: 100%;
+$global-lineheight: 1.5;
 $primary-color: #87704c;
 $secondary-color: #0c2132;
 // $success-color: #3adb76;
@@ -215,19 +214,18 @@ $medium-gray: #cacaca;
 // $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $light-gray;
-$body-font-color: $secondary-color ;
+$body-font-color: $primary-color;
 $body-font-family: 'hans_kendrickregular', Helvetica, Roboto, Arial, sans-serif;
-// $body-antialiased: true;
-// $text-direction: ltr;
-// $global-margin: 1rem;
-// $global-padding: 1rem;
-// $global-margin: 1rem;
+$body-antialiased: true;
+$text-direction: ltr;
+$global-margin: 1rem;
+$global-padding: 1rem;
+$global-margin: 1rem;
 $global-weight-normal: normal;
-// $global-weight-bold: bold;
 $global-weight-bold: bold;
-// $global-radius: 3px;
-// $global-namespace: false;
-// $global-text-direction: ltr;
+$global-radius: 3px;
+$global-namespace: false;
+$global-text-direction: ltr;
 $rem-base: 16px;
 
 // The Grid
@@ -420,26 +418,51 @@ $header-font-family: 'hans_kendrickmedium', Helvetica, Roboto, Arial, sans-serif
 // $header-font-weight: $global-weight-normal;
 $header-font-style: uppercase;
 // $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
-$font-family-serif: Times, Georgia, serif;
+$font-family-serif: Times, Georgia, "Times New Roman", serif;
+
 $header-sizes: (
   small: (
-    'h1': 24,
-    'h2': 20,
+    'h1': 18,
+    'h2': 36,
     'h3': 19,
     'h4': 18,
     'h5': 17,
     'h6': 16,
   ),
   medium: (
-    'h1': 28,
-    'h2': 100,
+    'h1': 24,
+    'h2': 70,
     'h3': 31,
     'h4': 25,
     'h5': 20,
     'h6': 16,
   ),
+  large: (
+    'h1': 28,
+    'h2': 100,
+    'h3': 40,
+    'h4': 25,
+    'h5': 20,
+    'h6': 16,
+  ),  
+  xlarge: (
+    'h1': 28,
+    'h2': 120,
+    'h3': 40,
+    'h4': 25,
+    'h5': 20,
+    'h6': 16,
+  ),  
+    xxlarge: (
+    'h1': 28,
+    'h2': 110,
+    'h3': 45,
+    'h4': 25,
+    'h5': 20,
+    'h6': 16,
+  ), 
 );
-// $header-color: inherit;
+$header-color: inherit;
 // $header-lineheight: 1.4;
 // $header-margin-bottom: 0.5rem;
 // $header-text-rendering: optimizeLegibility;
@@ -454,8 +477,8 @@ $header-sizes: (
 // $code-background: $light-gray;
 // $code-border: 1px solid $medium-gray;
 // $code-padding: rem-calc(2 5 1);
-$anchor-color: $primary-color;
-$anchor-color-hover: scale-color($anchor-color, $lightness: +55%);
+// $anchor-color: $white;
+// $anchor-color-hover: scale-color($anchor-color, $lightness: +55%);
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
 // $hr-width: $global-width;
@@ -470,8 +493,8 @@ $list-style-type: none;
 // $defnlist-margin-bottom: 1rem;
 // $defnlist-term-weight: $global-weight-bold;
 // $defnlist-term-margin-bottom: 0.3rem;
-$blockquote-color: $primary-color;
-$blockquote-padding: rem-calc(9 20 0 19);
+// $blockquote-color: $primary-color;
+// $blockquote-padding: rem-calc(9 20 0 19);
 // $blockquote-border: 1px solid $medium-gray;
 // $cite-font-size: rem-calc(13);
 // $cite-color: $dark-gray;
@@ -485,7 +508,7 @@ $blockquote-padding: rem-calc(9 20 0 19);
 // Typography Helpers
 // ------------------
 
-// $lead-font-size: $global-font-size * 1.25;
+$lead-font-size: $global-font-size * 1.25;
 // $lead-lineheight: 1.6;
 // $subheader-lineheight: 1.4;
 // $subheader-color: $dark-gray;
@@ -494,6 +517,7 @@ $blockquote-padding: rem-calc(9 20 0 19);
 // $subheader-margin-bottom: 0.5rem;
 // $stat-font-size: 2.5rem;
 
+
 // Button
 // ------------------
 
@@ -501,9 +525,9 @@ $blockquote-padding: rem-calc(9 20 0 19);
 // $button-margin: 0 $global-margin $global-margin 0;
 $button-fill: solid;
 $button-background: $light-gray;
-// $button-background-hover: scale-color($button-background, $lightness: -15%);
+$button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-font-color: inherit;
-$button-font-color-alt: $primary-color;
+$button-font-color-alt: $white;
 $button-sizes: (
   tiny: 0.6rem,
   small: 0.75rem,
@@ -511,3 +535,4 @@ $button-sizes: (
   large: 1.25rem,
 );
 // $button-opacity-disabled: 0.25;
+

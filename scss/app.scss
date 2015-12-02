@@ -46,13 +46,27 @@
 body {
 	letter-spacing: rem-calc(5);
 	text-transform: uppercase;
+
+	@include breakpoint(medium) {
+	font-size: rem-calc(14);
+	}
+	@include breakpoint(large) {
+	font-size: rem-calc(14);
+	}	
+	@include breakpoint(xlarge) {
+	font-size: rem-calc(18);
+	}		
 }
+
 
 .row {
 	max-width: 100%;
 }
 .vertical-center{
-	@include vertical-center();
+	@include vertical-center;
+}
+.vertical-center-absolute{
+	@include absolute-center;
 }
 // ::::::::::::: Landingpage :::::::::::::::
 
@@ -62,23 +76,25 @@ body {
 		margin:rem-calc(5);
 		@include hh-medium;
 		font-size: rem-calc(20);
+		a{
+			color: $white;
+			&:hover{
+				opacity: 0.5;
+			}
+		}
 	}	
     h1 {
-    	color: $primary-color;
 		@include hh-regular;
     	letter-spacing: rem-calc(5);
     	text-transform: uppercase;
     }
 	h2 {
-    	color: $primary-color;
 		@include hh-light;
-		font-size: rem-calc(90);
     	letter-spacing: rem-calc(8);
 	}
-	h3 {
-	@include font-family-serif ($font-family-serif, bold, $primary-color );
-	font-style: italic;
-	text-transform: uppercase;			
+	.serif{
+		@include font-family-serif ($font-family-serif, bold, $primary-color );
+		font-style: italic;		
 	} 	
 	hr {
 		width: rem-calc(350);
@@ -100,7 +116,7 @@ body {
 		margin-top: 5%;
 	}
 	#signatur {
-		@include horizontal-center-css;
+		@include horizontal-center-home;
 		}
 	}
 	.lang{
@@ -121,7 +137,7 @@ body {
         url('../img/aa-numbers-bg.jpg');
 		@include img-bg-cover-center;
 		h2 {
-			@include horizontal-center-css;
+			@include vertical-center;
 	}
 
 }
@@ -131,14 +147,23 @@ body {
 	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), 
 	url('../img/HGA-Anim-menu1.jpg');	
 	@include img-bg-cover-center;
-	h2{
+	h3{
 		@include hh-regular;
-		font-size: rem-calc(50);
 		line-height: 1.275;
-		margin-top: 17%;
+		@include breakpoint(medium) {
+			margin-top: 17%;
+		}
+		@include breakpoint(large) {
+			margin-top: 28%;
+		}	
+		@include breakpoint(xlarge) {
+			margin-top: 17%;
+		}			
 	}
-	h3 {
+	.kapitel {
 		margin-top: 60%;
+		@include font-family-serif ($font-family-serif, bold, $primary-color );
+		font-style: italic;
 	}
 }
 #main-nav-rk {
@@ -146,14 +171,25 @@ body {
 	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)), 
 	url('../img/HGA-Anim-menu2.jpg');	
 	@include img-bg-cover-center;
-	h2{
+	h3{
 		@include hh-regular;
-		font-size: rem-calc(50);
 		line-height: 1.275;
-		margin-top: 17%;
+		@include hh-regular;
+		line-height: 1.275;
+		@include breakpoint(medium) {
+			margin-top: 17%;
+		}
+		@include breakpoint(large) {
+			margin-top: 28%;
+		}	
+		@include breakpoint(xlarge) {
+			margin-top: 17%;
+		}
 	}
-	h3 {
+	.kapitel {
 		margin-top: 60%;
+		@include font-family-serif ($font-family-serif, bold, $primary-color );
+		font-style: italic;
 	}
 }
 #main-nav-sh {
@@ -161,29 +197,41 @@ body {
 	linear-gradient(rgba(12, 33, 50, 0.8), rgba(12, 33, 50, 0.8)),  
 	url('../img/HGA-Anim-menu3.jpg');	
 	@include img-bg-cover-center;
-	h2{
+	h3{
 		@include hh-regular;
-		font-size: rem-calc(50);
 		line-height: 1.275;
-		margin-top: 17%;
+		@include hh-regular;
+		line-height: 1.275;
+		@include breakpoint(medium) {
+			margin-top: 17%;
+		}
+		@include breakpoint(large) {
+			margin-top: 28%;
+		}	
+		@include breakpoint(xlarge) {
+			margin-top: 17%;
+		}
 	}
-	h3 {
+	.kapitel {
 		margin-top: 60%;
+		@include font-family-serif ($font-family-serif, bold, $primary-color );
+		font-style: italic;
 	}
 }
 
 
 
-// ::::::::::::: Kreidler Gallery Nav Left fixed :::::::::::::::
+// ::::::::::::: Gallery Nav Left fixed  Kreidler  :::::::::::::::
 
 $gelaendesport-nav-button-class-bg-color: $light-gray; 
 $gelaendesport-nav-button-class-bg-color-hover: darken($gelaendesport-nav-button-class-bg-color, 5%);
 
-#gallery-nav {
+#gallery-nav-bg {
 	width:100vh;    
 	height:rem-calc(55);
 	position:fixed;
-	background: $light-gray;
+	background-color: transparent;
+	display: inline-block;
 	color: $primary-color;
 	-webkit-transform-origin: left top;
 	-moz-transform-origin: left top;
@@ -193,37 +241,53 @@ $gelaendesport-nav-button-class-bg-color-hover: darken($gelaendesport-nav-button
 	-moz-transform: rotate(-90deg) translateX(-100%);
 	-ms-transform: rotate(-90deg) translateX(-100%);
 	-o-transform: rotate(-90deg) translateX(-100%);
-	z-index: 100;	
+	z-index: 100;
+}
+
+#gallery-nav {
+	// border: 1px solid blue;
+	width:100vh;    
+	height:rem-calc(55);
+	position:fixed;
+	display: inline-block;
+	color: $primary-color;
+	-webkit-transform-origin: left top;
+	-moz-transform-origin: left top;
+	-ms-transform-origin: left top;
+	-o-transform-origin: left top;
+	-webkit-transform: rotate(-90deg) translateX(-100%);
+	-moz-transform: rotate(-90deg) translateX(-100%);
+	-ms-transform: rotate(-90deg) translateX(-100%);
+	-o-transform: rotate(-90deg) translateX(-100%);
+	z-index: 101;	
 	@include hh-medium;
 
-	.menu-btn-fixed{
-		position: fixed; 
-		top:0; 
-		right:0;
-	}	
-	.toggle-menu{
-		@include menu-expand (4.7);
+	ul.toggle-menu{
+		@include menu-expand (4);
+		width:82vh; 
 		visibility: hidden;
+		-webkit-animation-duration: 0.1s;
+		-webkit-animation-delay: 0s;
+		// -webkit-animation-iteration-count: infinite;
 		ul{
-			li{height:rem-calc(54);
+			li{ height:rem-calc(54);
 			}
 		}
 	}	
-	h3 {
+	h6 {
 		@include font-family-serif ($font-family-serif, bold, $primary-color );
 		font-style: italic;
-		font-size: rem-calc(16);
 		display: inline-block;
 
 	}
-	.gallery-nav-button-class { 
+	a.gallery-nav-button-class { 
 		@include button;
 		color: inherit;
 		background: transparent; 
 		height:rem-calc(54);
 		margin:0;
 		padding-top:rem-calc(16);
-
+			 
 			&:hover { 
 				background: $gelaendesport-nav-button-class-bg-color-hover; 
 				color: inherit;
@@ -231,23 +295,29 @@ $gelaendesport-nav-button-class-bg-color-hover: darken($gelaendesport-nav-button
 			&:focus{
 				background: $gelaendesport-nav-button-class-bg-color-hover;
 			}	
-		}
-	ul#count-info{ 
-		margin:0;
+		}	
+		a.menu-btn-fixed{
+		color: $secondary-color;
+		position: fixed; 
+		top:0; 
+		right:0;
 	}		
-	.up-down-arrwos	{
-			font-size: rem-calc(25);
-			padding: rem-calc(10);
-	}
-	.count-numbers{
-	-webkit-transform: rotate(+90deg) translateX(0);
-	-moz-transform: rotate(+90deg) translateX(0);
-	-ms-transform: rotate(+90deg) translateX(0);
-	-o-transform: rotate(+90deg) translateX(0);	
-	text-align:center;	
-	margin-left: rem-calc(35);
-	margin-right: rem-calc(15);
-	}
+	ul.count-info{ 
+		margin:0;
+		.up-down-arrwos	{
+				font-size: rem-calc(25);
+				padding: rem-calc(10);
+		}
+		.count-numbers{
+		-webkit-transform: rotate(+90deg) translateX(0);
+		-moz-transform: rotate(+90deg) translateX(0);
+		-ms-transform: rotate(+90deg) translateX(0);
+		-o-transform: rotate(+90deg) translateX(0);	
+		text-align:center;	
+		margin-left: rem-calc(35);
+		margin-right: rem-calc(15);
+		}					
+	}	
 }
 
 #gallery-lightbox {
@@ -294,61 +364,62 @@ ul#gallery-lightbox-menu{
 // ::::::::::::: Gallery Image Content :::::::::::::::
 
 .panel{
+		// border: 1px solid red;
 		color: $primary-color;
 		background-color: $light-gray;
-		width:50%;
 		height:100vh;
-		padding: rem-calc(55);
 		text-align: center; 
-    h1 {
-		@include font-family-serif ($font-family-serif, bold, $primary-color );
-		font-style: italic;
-		text-transform: uppercase;
-		margin-top: 25%;
-    }
-	h2 {
-    	color: $white;
-		@include hh-light;
-		font-size: rem-calc(100);
-    	letter-spacing: rem-calc(8);
-    	margin-top: 10%;
-	}
-	.lead{
-		margin-top: 10%;
-		letter-spacing: rem-calc(2);
-	}
-	hr {
-		width: rem-calc(350);
-	    margin-top: rem-calc(40);
-	    margin-bottom: rem-calc(40);
-	}	
-	button {
-		color: $primary-color;
-		letter-spacing: inherit;
-		@include hh-medium;
-		&:hover{
-			color: $white;
-			}
-		&:focus{
+		overflow: scroll;
+		.content{
+			// border: 1px solid red;
+			padding:rem-calc(20) rem-calc(25);
+			position: relative;
+    		top: 50%;
+    		transform: translateY(-50%);
+	    h1 {
+			@include font-family-serif ($font-family-serif, bold, $primary-color );
+			font-style: italic;
+			text-transform: uppercase;
+	    }
+		h2 {
+	    	color: $white;
+			@include hh-light;
+	    	letter-spacing: rem-calc(8);
+	    	margin-top: 10%;
+		}
+		.lead{
+			margin-top: 10%;
+			letter-spacing: rem-calc(2);
+		}
+		hr {
+			width: rem-calc(350);
+		    margin-top: rem-calc(40);
+		    margin-bottom: rem-calc(40);
+		}	
+		.button {
+			color: $primary-color;
+			letter-spacing: inherit;
+			@include hh-medium;
+
+			&:hover{
 				color: $white;
-			}
-		&:active{
-				color: $white;
+				}
+			&:focus{
+					color: $white;
+				}
+			&:active{
+					color: $white;
+				}    		
 			}	
+		}
 	}
-}
 
 
 // ::::::::::::: Galerie Geländesport :::::::::::::::
 
-@mixin animation-timing {
-	-webkit-animation-duration: 1s;
-  	-webkit-animation-delay: 0.2s;
-  // -webkit-animation-iteration-count: infinite;	
-}
 
 .gallery-content-box {
-	margin-left: rem-calc(55);
+	// margin-left: rem-calc(55);
 	@include img-bg-cover-center;
 }
 .image-container{
@@ -359,8 +430,6 @@ ul#gallery-lightbox-menu{
 	@include img-bg-cover-center;
 	background-position:left top;
 }
-
-
 
 
 
