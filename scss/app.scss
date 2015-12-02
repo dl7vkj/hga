@@ -51,7 +51,9 @@ body {
 .row {
 	max-width: 100%;
 }
-
+.vertical-center{
+	@include vertical-center();
+}
 // ::::::::::::: Landingpage :::::::::::::::
 
 .home {
@@ -200,8 +202,12 @@ $gelaendesport-nav-button-class-bg-color-hover: darken($gelaendesport-nav-button
 		right:0;
 	}	
 	.toggle-menu{
-		width:85vh;
+		@include menu-expand (4.7);
 		visibility: hidden;
+		ul{
+			li{height:rem-calc(54);
+			}
+		}
 	}	
 	h3 {
 		@include font-family-serif ($font-family-serif, bold, $primary-color );
@@ -216,7 +222,8 @@ $gelaendesport-nav-button-class-bg-color-hover: darken($gelaendesport-nav-button
 		background: transparent; 
 		height:rem-calc(54);
 		margin:0;
-		padding-top:rem-calc(18);
+		padding-top:rem-calc(16);
+
 			&:hover { 
 				background: $gelaendesport-nav-button-class-bg-color-hover; 
 				color: inherit;
@@ -224,13 +231,22 @@ $gelaendesport-nav-button-class-bg-color-hover: darken($gelaendesport-nav-button
 			&:focus{
 				background: $gelaendesport-nav-button-class-bg-color-hover;
 			}	
-	
-		}	
+		}
+	ul#count-info{ 
+		margin:0;
+	}		
 	.up-down-arrwos	{
-			font-size: rem-calc(28);
-			padding-top: rem-calc(10);
-			padding-right: rem-calc(10);
-			padding-left: rem-calc(10);
+			font-size: rem-calc(25);
+			padding: rem-calc(10);
+	}
+	.count-numbers{
+	-webkit-transform: rotate(+90deg) translateX(0);
+	-moz-transform: rotate(+90deg) translateX(0);
+	-ms-transform: rotate(+90deg) translateX(0);
+	-o-transform: rotate(+90deg) translateX(0);	
+	text-align:center;	
+	margin-left: rem-calc(35);
+	margin-right: rem-calc(15);
 	}
 }
 

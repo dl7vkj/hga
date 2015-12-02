@@ -57,7 +57,7 @@ $menu-expand-max: 6 !default;
 /// @param {Keyword|Number} $count [auto] - Number of items in the Menu. You can hardcode a number, or use `auto` to generate CSS that will adapt to the number of items inside the menu.
 @mixin menu-expand($count: auto) {
   display: table;
-  width: 100%;
+  width: 85%;
 
   > li {
     @if $count == auto {
